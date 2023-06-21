@@ -39,36 +39,17 @@
 
 </html>
 <h3>Contact Us Form</h3>
-<div class="container">
-    <form action="/action_page.php">
-    	<label for="fname">Telephone Number</label>
-    <input type="text" id="companyNO" name="CompanyNo" placeholder="07923 526826">
-    
 
-    <label for="email"><br />
-		<br />
-		Email Address</label>
-    <input type="text" id="email" name="lastname" placeholder="Emailus@gmail.com">
-    
-
-    <label for="message"><br />
-		<br />
-		Message Number</label>
-    <input type="text" id="message" name="lastname" placeholder="07923 826126">
-    
- 
-
-    <label for="subject">
-		<img alt="contactus_image" height="164" src="images/contactus.png" style="float: right" width="299" /><br />
-		<br />
-		Subject: Please type any feedback Good Or Bad.<br />
-		Well get back in touch with you as soon as possible.<br />
-		Thank You. <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>&nbsp;<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
+<p>You can also use the form below to send us your enquiry.</p>
+<form method="post" action="mailto:Emailus@gmail.com">
+	<p>Name<br />
+	<input name="Name" tabindex="1" type="text" /></p>
+	<p>Email Address<br />
+	<input name="Address" tabindex="2" type="text" /></p>
+	<p>Your Message<br />
+	<textarea cols="30" name="Message" rows="7" tabindex="3"></textarea></p>
+	<input name="Submit1" type="submit" value="Submit" />
+</form>
 
 </body>
 </html>
